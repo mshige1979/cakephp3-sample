@@ -27,7 +27,7 @@ INSERT INTO posts (title,body) VALUES ('タイトル３', 'テスト記事３');
 ```
 
 ### コントローラー
-#### vim app/App/Controller/PostsController.php
+#### app/App/Controller/PostsController.php
 ```
 <?php
 namespace App\Controller;
