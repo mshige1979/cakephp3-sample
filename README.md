@@ -22,40 +22,11 @@ curl -s https://getcomposer.org/installer | php
 php composer.phar create-project -s dev cakephp/app app
 git clone https://github.com/cakephp/cakephp.git -b 3.0 /vagrant/htdocs/app/vendor/cakephp/cakephp
 ```
+※cake/cakeのdownloadに失敗する場合はgit cloneを別途行う
 
-### nginx設定
+### サーバ起動
 ```
-server {
-    listen       80;
-    server_name  dev.example.com
-                 192.168.33.10
-                 ;
-
-    access_log  /var/log/nginx/dev.example.com/access.log  main;
-    error_log   /var/log/nginx/dev.example.com/error.log;
-
-    root   /vagrant/htdocs/app/webroot;
-
-    index  index.php;
-
-    location / {
-        try_files $uri $uri/ /index.php?$uri&$args;
-    }
-
-    location ~ \.php$ {
-        try_files $uri =404;
-        fastcgi_pass   127.0.0.1:9000;
-        fastcgi_index  index.php;
-        fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-        include        fastcgi_params;
-    }
-
-    location ~ (\.htaccess|\.git|\.svn) {
-        deny  all;
-    }
-
-    charset utf-8;
-
-}
+sh app/App/Console/cake server -H 192.168.33.10 -p 1234
 ```
+
 
