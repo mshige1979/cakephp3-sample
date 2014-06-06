@@ -197,3 +197,13 @@ echo $this->Form->end();
 <a href="/posts">一覧へ戻る</a>
 ```
 
+### 結果
+#### 一覧
+<img src="https://raw.githubusercontent.com/mshige1979/cakephp3-sample/master/01_helloworld/items/cakephp3_0002-1.png"></img>
+
+#### 追加
+<img src="https://raw.githubusercontent.com/mshige1979/cakephp3-sample/master/01_helloworld/items/cakephp3_0002-2.png"></img>
+
+#### 登録完了
+<img src="https://raw.githubusercontent.com/mshige1979/cakephp3-sample/master/01_helloworld/items/cakephp3_0002-3.png"></img>
+
