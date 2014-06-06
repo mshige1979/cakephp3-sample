@@ -21,7 +21,7 @@ curl -s https://getcomposer.org/installer | php
 cat <<'_EOT_' > composer.json
 {
   "require" : {
-    "cakephp/cakephp" : "3.0.x-dev",
+    "cakephp/cakephp" : "3.0.*-dev",
     "cakephp/app" : "dev-master",
     "cakephp/debug_kit": "2.2.*",
     "php": ">=5.4"
