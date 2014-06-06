@@ -135,6 +135,11 @@ class PostsTable extends Table {
 
 
 ### ビュー
+#### ディレクトリ作成
+```
+mkdir -p app/App/Template/Posts
+```
+
 #### app\App\Template\Posts\index.ctp
 ```
 <h1>Blog Posts</h1>
