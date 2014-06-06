@@ -95,6 +95,7 @@ class PostsController extends AppController {
 }
 ```
 
+### モデル
 #### app/App\Model\Entity\post.php
 ```
 <?php
@@ -134,5 +135,60 @@ class PostsTable extends Table {
 
 
 ### ビュー
+#### app\App\Template\Posts\index.ctp
+```
+<h1>Blog Posts</h1>
+<table>
+	<tr>
+		<th>Id</th>
+		<th>Title</th>
+		<th>Created</th>
+	</tr>
+	
+	<?php foreach ($posts as $post): ?>
+	<tr>
+		<td><?php echo $post->id; ?></td>
+		<td><?php echo $this->Html->link($post->title, array('controller' => 'posts', 'action' => 'view', $post->id)); ?></td>
+		<td><?php echo $post->created->format('Y-m-d H:i:s'); ?></td>
+	</tr>
+	<?php endforeach; ?>
+	<?php unset($post); ?>
+</table>
+<br />
+<a href="/posts/add">
+	<button>
+		追加
+	</button>
+</a>
+```
 
-### モデル
+#### app\App\Template\Posts\add.ctp
+```
+<h1>Add Post</h1>
+<?php
+echo $this->Form->create('Posts');
+echo $this->Form->input('Posts.title');
+echo $this->Form->input('Posts.body', array('rows' => '3'));
+echo $this->Form->submit('Save Post');
+echo $this->Form->end();
+?>
+
+<br />
+<br />
+<a href="/posts">一覧へ戻る</a>
+```
+
+#### app\App\Template\Posts\view.ctp
+```
+<a href="/posts">一覧へ戻る</a>
+<br />
+<br />
+
+<h1><?php echo h($post->title); ?></h1>
+<p><small>Created: <?php echo $post->created->format('Y-m-d H:i:s'); ?></small></p>
+<p><?php echo h($post->body); ?></p>
+
+<br />
+<a href="/posts">一覧へ戻る</a>
+```
+
