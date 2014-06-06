@@ -53,7 +53,7 @@ php composer.phar update
 
 ### 起動
 ```
-
+sh app/App/Console/cake server -H 192.168.33.10 -p 1234
 ```
-
+ビルドインサーバの代わり
 
