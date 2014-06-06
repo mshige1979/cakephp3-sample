@@ -12,10 +12,7 @@ mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'my_app'@'localhost' IDENTIFIED
 
 ### なんか適当なディレクトリを用意して
 ```
-mkdir projects
-cd projects
-mkdir sample01
-cd sample01
+/vagrant/htdocs
 ```
 
 ### インストール
@@ -51,6 +48,7 @@ _EOT_
 
 ### composerでプロジェクトを作成
 ```
+cd /vagrant/htdocs
 php composer.phar create-project -s dev cakephp/app app
 ```
 
