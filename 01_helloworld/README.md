@@ -96,7 +96,7 @@ class PostsController extends AppController {
 ```
 
 ### モデル
-#### app/App\Model\Entity\post.php
+#### app/App/Model/Entity/post.php
 ```
 <?php
 namespace App\Model\Entity;
@@ -107,7 +107,7 @@ class Post extends Entity {
 }
 ```
 
-#### app/App\Model\Table\PostsTable.php
+#### app/App/Model/Table/PostsTable.php
 ```
 <?php
 namespace App\Model\Table;
@@ -140,7 +140,7 @@ class PostsTable extends Table {
 mkdir -p app/App/Template/Posts
 ```
 
-#### app\App\Template\Posts\index.ctp
+#### app/App/Template/Posts/index.ctp
 ```
 <h1>Blog Posts</h1>
 <table>
@@ -167,7 +167,7 @@ mkdir -p app/App/Template/Posts
 </a>
 ```
 
-#### app\App\Template\Posts\add.ctp
+#### app/App/Template/Posts/add.ctp
 ```
 <h1>Add Post</h1>
 <?php
@@ -183,7 +183,7 @@ echo $this->Form->end();
 <a href="/posts">一覧へ戻る</a>
 ```
 
-#### app\App\Template\Posts\view.ctp
+#### app/App/Template/Posts/view.ctp
 ```
 <a href="/posts">一覧へ戻る</a>
 <br />
