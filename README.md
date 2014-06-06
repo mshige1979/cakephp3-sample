@@ -3,6 +3,17 @@ cakephp3-sample
 
 cakephp3のサンプルを書いてみる
 
+### 参考リンク
+#### ドキュメント
+http://book.cakephp.org/3.0/en/index.html
+
+#### ロードマップ
+https://github.com/cakephp/cakephp/wiki/3.0-Roadmap
+
+#### github
+https://github.com/cakephp/app
+https://github.com/cakephp/cakephp
+
 ### データベースの準備
 ```
 mysql -u root -e "create database my_app default charset utf8"
