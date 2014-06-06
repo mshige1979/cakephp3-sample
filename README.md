@@ -20,6 +20,7 @@ mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'my_app'@'localhost' IDENTIFIED
 cd /vagrant/htdocs
 curl -s https://getcomposer.org/installer | php
 php composer.phar create-project -s dev cakephp/app app
+git clone https://github.com/cakephp/cakephp.git -b 3.0 /vagrant/htdocs/app/vendor/cakephp/cakephp
 ```
 
 ### nginx設定
