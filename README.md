@@ -5,14 +5,16 @@ cakephp3のサンプルを書いてみる
 
 ### 参考リンク
 #### ドキュメント
-http://book.cakephp.org/3.0/en/index.html
+<a href="http://book.cakephp.org/3.0/en/index.html" target="cakephp3_link">http://book.cakephp.org/3.0/en/index.html</a><br />
+<br />
 
 #### ロードマップ
-https://github.com/cakephp/cakephp/wiki/3.0-Roadmap
+<a href="https://github.com/cakephp/cakephp/wiki/3.0-Roadmap" target="cakephp3_link">https://github.com/cakephp/cakephp/wiki/3.0-Roadmap</a><br >
+<br />
 
 #### github
-https://github.com/cakephp/app
-https://github.com/cakephp/cakephp
+<a href="https://github.com/cakephp/app" target="cakephp3_link">https://github.com/cakephp/app</a>
+<a href="https://github.com/cakephp/cakephp" target="cakephp3_link">https://github.com/cakephp/cakephp</a>
 
 ### データベースの準備
 ```
