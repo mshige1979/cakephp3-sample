@@ -3,6 +3,13 @@ cakephp3-sample
 
 cakephp3のサンプルを書いてみる
 
+### データベースの準備
+```
+mysql -u root -e "create database my_app default charset utf8"
+mysql -u root -e "create database test_my_app default charset utf8"
+mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'my_app'@'localhost' IDENTIFIED BY 'secret' WITH GRANT OPTION;"
+```
+
 ### なんか適当なディレクトリを用意して
 ```
 mkdir projects
