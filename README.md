@@ -3,7 +3,7 @@ cakephp3-sample
 
 cakephp3のサンプルを書いてみる
 
-### なんか適用なディレクトリを用意して
+### なんか適当なディレクトリを用意して
 ```
 mkdir projects
 cd projects
