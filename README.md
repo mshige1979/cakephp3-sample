@@ -6,14 +6,12 @@ cakephp3のサンプルを書いてみる
 ### 参考リンク
 #### ドキュメント
 <a href="http://book.cakephp.org/3.0/en/index.html" target="cakephp3_link">http://book.cakephp.org/3.0/en/index.html</a><br />
-<br />
 
 #### ロードマップ
 <a href="https://github.com/cakephp/cakephp/wiki/3.0-Roadmap" target="cakephp3_link">https://github.com/cakephp/cakephp/wiki/3.0-Roadmap</a><br >
-<br />
 
 #### github
-<a href="https://github.com/cakephp/app" target="cakephp3_link">https://github.com/cakephp/app</a>
+<a href="https://github.com/cakephp/app" target="cakephp3_link">https://github.com/cakephp/app</a><br />
 <a href="https://github.com/cakephp/cakephp" target="cakephp3_link">https://github.com/cakephp/cakephp</a>
 
 ### データベースの準備
