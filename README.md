@@ -17,12 +17,8 @@ mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'my_app'@'localhost' IDENTIFIED
 
 ### インストール
 ```
-curl -s https://getcomposer.org/installer | php
-```
-
-### composerでプロジェクトを作成
-```
 cd /vagrant/htdocs
+curl -s https://getcomposer.org/installer | php
 php composer.phar create-project -s dev cakephp/app app
 ```
 
