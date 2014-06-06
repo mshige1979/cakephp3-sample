@@ -10,6 +10,7 @@ curl -s https://getcomposer.org/installer | php
 
 ### composer.jsonを編集
 ```
+cat <<'_EOT_' > composer.json
 {
   "require" : {
     "cakephp/cakephp" : "3.0.x-dev",
@@ -30,4 +31,5 @@ curl -s https://getcomposer.org/installer | php
     "post-install-cmd": "App\\Console\\Installer::postInstall"
   }
 }
+_EOT_
 ```
