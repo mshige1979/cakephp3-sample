@@ -3,6 +3,14 @@ cakephp3-sample
 
 cakephp3のサンプルを書いてみる
 
+### なんか適用なディレクトリを用意して
+```
+mkdir projects
+cd projects
+mkdir sample01
+cd sample01
+```
+
 ### インストール
 ```
 curl -s https://getcomposer.org/installer | php
@@ -38,4 +46,14 @@ _EOT_
 ```
 php composer.phar create-project -s dev cakephp/app app
 ```
+これでもいいかも
+```
+php composer.phar update
+```
+
+### 起動
+```
+
+```
+
 
