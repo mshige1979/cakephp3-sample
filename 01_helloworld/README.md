@@ -7,7 +7,7 @@
 use my_app;
 ```
 
-### テーブルを作成
+#### テーブルを作成
 ```
 CREATE TABLE posts (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -18,7 +18,7 @@ CREATE TABLE posts (
 );
 ```
 
-### データを投入
+#### データを投入
 ```
 truncate table posts;
 INSERT INTO posts (title,body) VALUES ('タイトル１', 'テスト記事１');
@@ -26,3 +26,9 @@ INSERT INTO posts (title,body) VALUES ('タイトル２', 'テスト記事２');
 INSERT INTO posts (title,body) VALUES ('タイトル３', 'テスト記事３');
 ```
 
+### コントローラー
+#### vim app/App/Controller/PostsController.php
+
+### ビュー
+
+### モデル
