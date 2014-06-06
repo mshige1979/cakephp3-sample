@@ -33,3 +33,9 @@ cat <<'_EOT_' > composer.json
 }
 _EOT_
 ```
+
+### composerでプロジェクトを作成
+```
+php composer.phar create-project -s dev cakephp/app app
+```
+
