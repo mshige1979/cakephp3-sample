@@ -32,4 +32,10 @@ sh app/App/Console/cake bake view Members
 ```
 
 
+### 画面
+<img src="https://raw.githubusercontent.com/mshige1979/cakephp3-sample/master/02_bake/items/cakephp3_0003-1.png"></img>
+
+<img src="https://raw.githubusercontent.com/mshige1979/cakephp3-sample/master/02_bake/items/cakephp3_0003-2.png"></img>
+
+<img src="https://raw.githubusercontent.com/mshige1979/cakephp3-sample/master/02_bake/items/cakephp3_0003-3.png"></img>
 
