@@ -21,27 +21,15 @@ CREATE TABLE members (
 sh app/App/Console/cake bake controller Members
 ```
 
-とすると
-
+#### モデルを作成
+```
+sh app/App/Console/cake bake model Members
 ```
 
-Welcome to CakePHP v3.0.0-dev3 Console
----------------------------------------------------------------
-App : App
-Path: /vagrant/projects/cakephp3-sample/02_bake/app/App/
----------------------------------------------------------------
-
-Baking controller class for Members...
-
-Creating file /vagrant/projects/cakephp3-sample/02_bake/app/App/Controller/MembersController.php
-Wrote `/vagrant/projects/cakephp3-sample/02_bake/app/App/Controller/MembersController.php`
-Bake is detecting possible fixtures...
-
-Baking test case for App\Controller\MembersController ...
-
-Creating file /vagrant/projects/cakephp3-sample/02_bake/app/Test/TestCase/Controller/MembersControllerTest.php
-Wrote `/vagrant/projects/cakephp3-sample/02_bake/app/Test/TestCase/Controller/MembersControllerTest.php`
-
+#### ビューを作成
+```
+sh app/App/Console/cake bake view Members
 ```
 
-となる
+
+
