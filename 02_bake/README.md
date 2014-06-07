@@ -21,6 +21,8 @@ CREATE TABLE members (
 sh app/App/Console/cake bake controller Members
 ```
 
+※コントローラーの雛形を作成する場合はコンポーネントなどを各自で用意していないので個別に設定が必要な場合は付与する必要があります。
+
 #### モデルを作成
 ```
 sh app/App/Console/cake bake model Members
